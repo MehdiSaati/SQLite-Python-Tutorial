@@ -25,11 +25,11 @@ When you connect to an SQLite database file that does not exist, SQLite automati
 To create a database, first, you have to create a Connection object that represents the database using the connect() function of the sqlite3 module.
 
 For example, the following Python program creates a new database file pythonsqlite.db in the c:\sqlite\db folder.
-'''
+```
 Note that you must create the c:\sqlite\db folder first before you execute the program. Or you can place the database file a folder of your choice.
-'''
+```
 
-'''
+```
 import sqlite3
 from sqlite3 import Error
 
@@ -50,7 +50,7 @@ def create_connection(db_file):
 if __name__ == '__main__':
     create_connection(r"C:\sqlite\db\pythonsqlite.db")
 
-'''
+```
 
 In this code:
 
@@ -71,7 +71,7 @@ If you pass the file name as :memory: to the connect() function of the sqlite3 m
 
 The following program creates an SQLite database in the memory.
 
-'''
+```
 import sqlite3
 from sqlite3 import Error
 
@@ -93,6 +93,6 @@ def create_connection():
 
 if __name__ == '__main__':
     create_connection()
-'''
+```
 
 In this tutorial, you have learned how to create an SQLite database on disk and in memory from a Python program using sqlite3 module.
