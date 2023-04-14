@@ -1,0 +1,9 @@
+Summary: in this tutorial, you will learn how to create a new SQLite database from a Python program.
+
+When you connect to an SQLite database file that does not exist, SQLite automatically creates the new database for you.
+
+To create a database, first, you have to create a Connection object that represents the database using the connect() function of the sqlite3 module.
+
+For example, the following Python program creates a new database file pythonsqlite.db in the c:\sqlite\db folder.
+
+Note that you must create the c:\sqlite\db folder first before you execute the program. Or you can place the database file a folder of your choice.
