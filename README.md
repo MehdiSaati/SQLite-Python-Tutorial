@@ -1,4 +1,6 @@
 # SQLite-Python-Tutorial
+![SQLite-Python](https://user-images.githubusercontent.com/117528133/231989116-846ffa59-424a-4dec-a54f-f25986e036e7.jpg)
+
 This section shows you step by step how to work with the SQLite database using Python programming language.
 
 Python provides two popular interfaces for working with the SQLite database library: PySQLite and APSW. Each interface targets a set of different needs.
