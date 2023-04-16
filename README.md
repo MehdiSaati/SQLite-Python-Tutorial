@@ -96,8 +96,9 @@ if __name__ == '__main__':
 ```
 
 In this tutorial, you have learned how to create an SQLite database on disk and in memory from a Python program using sqlite3 module.
----
+
 ### SQLite Python: Creating Tables
+---
 Summary: in this tutorial, we will show you how to create tables in the SQLite database from the Python program using the sqlite3 module.
 
 To create a new table in an SQLite database from a Python program, you use the following steps:
@@ -298,9 +299,8 @@ As you can see clearly from the output, we are having the projects and tasks tab
 
 In this tutorial, you have learned how to create new tables in the SQLite database using the execute() method of the Cursor object.
 
----
 ### SQLite Python: Inserting Data
-
+---
 Summary: in this tutorial, you will learn how to insert rows into a table in the SQLite database from a Python program using the sqlite3 module.
 
 To insert rows into a table in SQLite database, you use the following steps:
@@ -481,5 +481,6 @@ And use the following SELECT statement to query data from the tasks table:
 SELECT * FROM tasks;
 ```
 In this tutorial, you have learned how to insert rows into tables in the SQLite database from a Python program.
----
+
 ### SQLite Python: Updating Data
+---
